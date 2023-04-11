@@ -1,10 +1,9 @@
 import React, { useState, useCallback } from 'react';
-import { Form, FormLayout, TextField, DatePicker, Select, Button, ButtonGroup, Card, Label, Popover, Icon, Box } from '@shopify/polaris';
+import { Form, FormLayout, TextField, DatePicker, Select, Button, ButtonGroup, Card, Popover, Icon } from '@shopify/polaris';
 import {
   CalendarMinor
 } from '@shopify/polaris-icons';
 import { format } from 'date-fns';
-import DatePickerField from './DatePickerField';
 
 const UpdateUserForm = ({ userData }) => {
   const [formData, setFormData] = useState(userData);
